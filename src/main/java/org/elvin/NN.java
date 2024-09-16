@@ -40,7 +40,7 @@ public class NN {
             MultilayerPerceptron neuralNetwork = new MultilayerPerceptron();
             neuralNetwork.setLearningRate(0.3);
             neuralNetwork.setMomentum(0.2);
-            neuralNetwork.setTrainingTime(500);
+            neuralNetwork.setTrainingTime(50);
             neuralNetwork.setHiddenLayers("a");
 
             // Step 5: Split the dataset into training and test sets (80% train, 20% test)

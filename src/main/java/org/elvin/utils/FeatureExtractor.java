@@ -13,7 +13,7 @@ public class FeatureExtractor {
         filter.setTokenizer(new NGramTokenizer()); // Use N-Grams
         filter.setInputFormat(dataset);
 
-        // Apply TF-IDF transformation
+        // Apply TF-IDF transformation  
         Instances newData = Filter.useFilter(dataset, filter);
         return newData;
     }
